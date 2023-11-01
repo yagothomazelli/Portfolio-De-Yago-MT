@@ -1,0 +1,63 @@
+.icone {
+    width: 100px;
+    border-radius: 20px;
+    padding: 20px;
+    /* box-shadow: 2px 2px 50px darkslateblue; */
+    background-color: rgba(70, 131, 180, 0.150);
+}
+
+.icones-container {
+    display: flex;
+    border-radius: 20px;
+}
+
+#html {
+    box-shadow: 2px 2px 15px orangered;
+}
+
+#css {
+    box-shadow: 2px 2px 15px dodgerblue;
+}
+
+#javascript {
+    box-shadow: 2px 2px 15px yellow;
+    flex-direction: row-reverse;
+}
+
+#vscode {
+    box-shadow: 2px 2px 15px steelblue;
+}
+
+#nodejs {
+    box-shadow: 2px 2px 15px greenyellow;
+    flex-direction: row-reverse;
+}
+
+#reactjs{
+    box-shadow: 2px 2px 15px #6ec5ff;
+}
+
+.icones {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 30px;
+}
+
+.icone-texto {
+    margin: 10px 15px;
+}
+
+.conhecimentos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conhecimentos-icone {
+    margin: 3% 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+

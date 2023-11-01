@@ -1,0 +1,35 @@
+.conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo-apresentacao {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    height: 40%;
+    margin: 3% 0;
+    align-items: center;
+}
+
+.apresentacao-texto {
+    font-size: 1.2rem;
+}
+
+.nome {
+    color: whitesmoke;
+}
+
+.foto-yago {
+    box-shadow: 2px 2px 3px darkslateblue;
+    border-radius: 100px;
+    height: 100%;
+}
+
+.conteudo-texto {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 40px;
+}
+
