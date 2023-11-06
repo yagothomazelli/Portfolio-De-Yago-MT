@@ -16,9 +16,6 @@
     font-size: 1.2rem;
 }
 
-.nome {
-    color: whitesmoke;
-}
 
 .foto-yago {
     box-shadow: 2px 2px 3px darkslateblue;
@@ -33,3 +30,24 @@
     gap: 40px;
 }
 
+@media screen and (max-width: 768px) {
+    .conteudo-apresentacao{
+        flex-direction: column-reverse;
+    }
+
+    .foto-yago{
+        height: 60%;
+    }
+
+    .conteudo-texto{
+        width: 90%;
+    }
+
+    #css{
+        font-size: 1rem;
+    }
+
+    #vscode{
+        font-size: 1rem;
+    }
+}

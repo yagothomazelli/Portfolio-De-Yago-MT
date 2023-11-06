@@ -11,6 +11,7 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
     text-shadow: -2px 2px navy;
+    width: 100%;
 }
 
 a {
@@ -36,27 +37,27 @@ a:hover {
 
 @keyframes animacao-cabecalho {
     0% {
-        box-shadow: 1px 1px 200px navy;
+        box-shadow: 1px 1px 100px navy;
     }
 
     20% {
-        box-shadow: 1px 1px 200px midnightblue;
+        box-shadow: 1px 1px 100px midnightblue;
     }
 
     40% {
-        box-shadow: 1px 1px 200px darkslateblue;
+        box-shadow: 1px 1px 100px darkslateblue;
     }
 
     60% {
-        box-shadow: 1px 1px 200px midnightblue;
+        box-shadow: 1px 1px 100px midnightblue;
     }
 
     80% {
-        box-shadow: 1px 1px 200px darkslateblue;
+        box-shadow: 1px 1px 100px darkslateblue;
     }
 
     100% {
-        box-shadow: 1px 1px 200px navy;
+        box-shadow: 1px 1px 100px navy;
     }
 }
 
@@ -68,11 +69,29 @@ a:hover {
 }
 
 @keyframes fundoClaro {
-    from{
+    from {
         background-color: rgba(255, 255, 255, 0.01);
     }
-    to{
+
+    to {
         background-color: rgba(255, 255, 255, 0.1);
+    }
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    .cabecalho {
+        gap: 0;
+    }
+
+    .nav-botoes {
+        width: 30%;
+    }
+
+    .conhecimentos-icone {
+        width: 95%;
     }
 
 }

@@ -1,14 +1,15 @@
 .icone {
     width: 100px;
+    height: auto;
     border-radius: 20px;
     padding: 20px;
-    /* box-shadow: 2px 2px 50px darkslateblue; */
     background-color: rgba(70, 131, 180, 0.150);
 }
 
 .icones-container {
     display: flex;
     border-radius: 20px;
+    width: 100%;
 }
 
 #html {
@@ -33,7 +34,7 @@
     flex-direction: row-reverse;
 }
 
-#reactjs{
+#reactjs {
     box-shadow: 2px 2px 15px #6ec5ff;
 }
 
@@ -61,3 +62,27 @@
     gap: 40px;
 }
 
+@media screen and (max-width: 1024px) {
+    .conhecimentos-icone {
+        width: 90%;
+    }
+
+    #css {
+        font-size: 0.83rem;
+    }
+
+    #vscode {
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .icones {
+        grid-template-columns: none;
+    }
+
+    .conhecimentos {
+        margin-bottom: 20%;
+    }
+}
