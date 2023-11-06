@@ -78,20 +78,3 @@ a:hover {
     }
 
 }
-
-
-@media screen and (max-width: 1024px) {
-
-    .cabecalho {
-        gap: 0;
-    }
-
-    .nav-botoes {
-        width: 30%;
-    }
-
-    .conhecimentos-icone {
-        width: 95%;
-    }
-
-}

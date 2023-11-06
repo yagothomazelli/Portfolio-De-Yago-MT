@@ -92,3 +92,17 @@
         width: 30%;
     }
 }
+
+@media screen and (max-width: 425px){
+    .cabecalho{
+        flex-direction: column;
+    }
+
+    .contatos-menu{
+        grid-template-columns: 50% 50%;
+    }
+
+    .nav-botoes{
+        gap: 90%;
+    }
+}

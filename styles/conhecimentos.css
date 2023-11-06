@@ -86,3 +86,30 @@
         margin-bottom: 20%;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .icones-container {
+        font-size: 0.8rem;
+    }
+
+    .icone-texto{
+        font-size: 0.72rem;
+    }
+
+    .conhecimentos{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .icone-texto{
+        font-size: 0.5rem;
+        margin: 8px 10px;
+    }
+
+    .icone{
+        width: 60px;
+        padding: 10px;
+    }
+
+}
